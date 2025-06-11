@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina1.css">
+    <title>Adote Capivaras</title>
+</head>
+<body>
+    <header>    
+        <h1>Adote Capivaras Agora</h1>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="pagina1.html"><h2>Ínicio</h2></a>
+        <a href="causa.html"><h2>Causa</h2></a>
+        <a href="quemSomos.html"><h2>Quem Somos</h2></a>
+        <a href="doe.html"><h2>Doe</h2></a>
+    </nav>
+
+    <!-- Seção de Imagens -->
+    <section>
+        <img src="https://cdn6.campograndenews.com.br/uploads/noticias/2023/07/08/64a982d458f22.jpg" alt="Capivara abandonada1">
+        <img src="https://th.bing.com/th/id/OIP.aZ3G9iU0PRY9w9AYhw7e_gHaFl?cb=iwc1&rs=1&pid=ImgDetMain" alt="Capivara morta">
+    </section>
+
+    <!-- Artigo e Aside lado a lado -->
+    <section style="display: flex; gap: 20px;">
+        <article style="flex: 2; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+            <p>Você já pensou em adotar um animal de estimação diferente, inteligente, carinhoso e surpreendentemente tranquilo? Talvez esteja na hora de considerar a capivara. Sim, aquela simpática gigante dos roedores, famosa por sua calma e pela capacidade de fazer amizade com praticamente qualquer outro animal. Mas o que torna a capivara uma excelente companheira?</p>
+            <p>Em primeiro lugar, a capivara é um símbolo vivo de paz. Seu comportamento dócil e sociável ensina, todos os dias, o valor da convivência pacífica. Elas vivem bem em grupos e se adaptam ao contato humano com uma serenidade que cativa. Ter uma capivara por perto é como carregar um lembrete diário de que é possível desacelerar e apreciar o momento presente. Em um mundo tão agitado, isso é um presente raro.</p>
+            <p>Além disso, as capivaras são extremamente inteligentes. Elas reconhecem seus tutores, respondem a comandos e são capazes de demonstrar afeto de maneira única. Criar uma capivara com responsabilidade é abrir espaço para uma conexão genuína com um ser que oferece mais do que companhia — oferece afeto sincero, sem cobranças.</p>
+            <p>É claro que, como qualquer animal exótico, a capivara exige cuidados específicos: espaço adequado, acesso à água para nadar, alimentação balanceada e, principalmente, muito respeito ao seu bem-estar. Mas esses cuidados não são obstáculos — são compromissos que fortalecem o vínculo entre você e ela. E com a orientação correta, é possível oferecer a esse animal tudo o que ele precisa para viver feliz.</p>
+            <p>Adotar uma capivara é, também, uma forma de se conectar com a natureza de forma consciente. É aprender a respeitar os ritmos da vida selvagem e cultivar um olhar mais empático sobre os outros seres com quem dividimos o planeta. Em tempos de crise ambiental, esse gesto tem ainda mais significado.</p>
+            <p>Se você procura um novo tipo de amizade — calma, carinhosa e cheia de significado — talvez não esteja procurando um cachorro ou um gato. Talvez, esteja procurando uma capivara. E ela pode estar esperando justamente por alguém como você.</p>
+            <p>Ligue para: (689)00000-0000</p>
+        </article>
+        
+        <aside>
+            <h3>Curiosidade Capivara 🐾    (atualize a página para ver mais curiosidades)</h3>
+            <p id="curiosidade"></p>
+        </aside>
+    </section>
+
+    <footer>
+        <h4>Nossos colaboradores:</h4>
+        <ul>
+            <p>João Pedro de Oliveira Moraes (CRIADOR ORIGINAL DO SITE, ABAIXO, SOMENTE NOMES FICTÍCIOS)</p>
+            <p>Neide Lima</p>
+            <p>Rafael Santos</p>
+        </ul>
+    </footer>
+
+    <!--script para deixar uma curiosidade a cada vez q atualizar a página-->
+    <script>
+    const curiosidades = [
+        "A capivara é o maior roedor do mundo!",
+        "Capivaras adoram nadar e passam horas na água.",
+        "Elas podem viver até 10 anos em cativeiro.",
+        "São animais extremamente sociáveis e vivem em grupos.",
+        "Capivaras têm glândulas de cheiro para marcar território.",
+        "Apesar de grandes, são muito dóceis e calmas.",
+        "Capivaras se comunicam com assobios, grunhidos e latidos baixos."
+    ];
+
+    const curiosidadeElemento = document.getElementById("curiosidade");
+
+    if (curiosidadeElemento) {
+        const aleatoria = curiosidades[Math.floor(Math.random() * curiosidades.length)];
+        curiosidadeElemento.textContent = aleatoria;
+    }
+
+</script>
+
+</body>
+
+</html>

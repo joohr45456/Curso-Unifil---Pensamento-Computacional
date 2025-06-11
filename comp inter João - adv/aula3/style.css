@@ -1,0 +1,39 @@
+h1 {
+    font-size: 50px;
+    line-height: 35px;
+    color: rgb(0, 0, 0); /*isso aqui é um comentario */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 1000;
+ 
+}
+p{
+    font-size: 30px;
+    line-height: 5px;
+    color: black;
+    text-align: left;
+    font-weight: 900;
+    margin: 5%;
+}
+ol {
+    font-style: italic;
+    text-decoration: underline;
+margin: 5%;
+}
+img {
+    align-items: center;
+    border-radius: 100px;
+}
+h3 {
+    margin: 5%;
+    font-size: 30px;
+    font-weight: 900;
+}
+h5 {
+    text-align: right;
+    margin: 3%
+}
+body {
+    background-color: azure;
+}

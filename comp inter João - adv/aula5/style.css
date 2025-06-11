@@ -1,0 +1,47 @@
+tr:nth-child(even) {
+    background-color: orange;
+}
+
+
+tr {
+    margin-left: 200px;
+    margin-top: 2000px;
+}
+html {
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#comteiner-tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+table {
+ width: 200px;
+
+   
+}
+
+thead {
+    margin-bottom: 150px;
+    margin-left: 200px;
+    z-index: 1;
+}
+#ultimaLinha {
+    background-color: black;
+}
+td:hover {
+   transform: scale(1.2,1.2); 
+   border: 10px;
+}
+thead {
+    background-color: orange;
+}

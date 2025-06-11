@@ -1,0 +1,101 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://th.bing.com/th/id/OIP.UmLWn9OdH0WAUFmWsl5HPwHaFM?cb=iwc2&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilo do header */
+header {
+    display: flex;
+    justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+    align-items: center;     /* Centraliza o conteúdo verticalmente */
+    height: 10vh;           /* Ocupa toda a altura da tela */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    color: white;            /* Cor do texto agora será preta */
+    text-align: center;      /* Garante que o texto esteja alinhado ao centro */
+}
+
+/* Estilo do nav */
+nav {
+    display: flex;
+    justify-content: center;  /* Centraliza os itens no nav */
+    align-items: center;      /* Alinha verticalmente */
+    background-color: #A7FF4D;  /* Fundo semi-transparente */
+    position: sticky;         /* Faz o nav ficar fixo no topo durante a rolagem */
+    top: 0;                   /* Coloca o nav no topo */
+    width: 100%;              /* Ocupa toda a largura */
+    padding: 10px 0;          /* Espaçamento interno */
+    z-index: 1000;            /* Garante que o nav fique acima de outros conteúdos */
+}
+
+/* Estilo dos itens dentro do nav */
+nav h2 {
+    margin: 0 20px;           /* Adiciona margem entre os itens */
+    color: white;             /* Cor do texto */
+    font-size: 1.2rem;        /* Tamanho do texto */
+}
+
+/* Tornando os links clicáveis */
+nav a {
+    text-decoration: none;    /* Remove o sublinhado */
+    color: white;             /* Cor do texto */
+}
+
+/* Efeito ao passar o mouse sobre o link */
+nav a:hover {
+    color: #ffcc00;           /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo das imagens */
+img {
+    margin: 100px;
+}
+
+/* Estilo da section que contém article e aside lado a lado */
+section {
+    display: flex;                  /* Torna o container flexível */
+    justify-content: space-between; /* Garante que os elementos fiquem bem espaçados */
+    gap: 20px;                      /* Espaço entre o article e o aside */
+    padding: 20px;
+}
+
+section img {
+    border-radius: 3%;
+}
+
+/* Estilo do article */
+article {
+    flex: 2;                        /* O article ocupa 2 partes do espaço */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo claro para o article */
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;                     /* Define a largura do article */
+}
+
+/* Estilo do aside */
+aside {
+    flex: 1;                        /* O aside ocupa 1 parte do espaço */
+    background-color: #FCDC6D; /* Fundo claro para o aside */
+    color: black;                   /* Cor do texto no aside */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;                     /* Define a largura do aside */
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #F4FA9E; /* Fundo preto */
+    color: black;            /* Cor do texto */
+    text-align: center;
+}
+
+/*teste de imagem*/
+
+a {
+    border-radius: 50% ;
+}

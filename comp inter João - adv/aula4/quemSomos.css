@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9ffe5;
+    color: #333;
+}
+
+header {
+    background-image: url("https://th.bing.com/th/id/OIP.UmLWn9OdH0WAUFmWsl5HPwHaFM?cb=iwc2&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A7FF4D;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+header {
+    background-image: url("https://th.bing.com/th/id/OIP.UmLWn9OdH0WAUFmWsl5HPwHaFM?cb=iwc2&rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A7FF4D;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #F4FA9E;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
