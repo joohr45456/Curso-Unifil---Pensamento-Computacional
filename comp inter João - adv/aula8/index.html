@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">'
+
+<head>'
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 com JS</title>
+    <style>
+        #personagem{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+
+    <script defer>
+
+        function mudarTexto() {
+            const titulo = document.getElementById("titulo");
+            titulo.innerHTML = "<strong>Texto alterado com sucesso<strong/>";
+        };
+        function mudarSubtitulo() {
+            const subtitulo = document.getElementsByClassName("subtitulo");
+            for (let i = 0; i < subtitulo.length; i++) {                   /*laço de repetição que repete até ele passar por todos os h3*/
+                subtitulo[i].innerText = "subtitulos inseridos com sucesso";
+            };
+        };
+
+        function sumir(){
+            const sumir = document.getElementsByClassName("sumir").style.display = "none";
+        }
+
+        
+</script>
+
+</head>
+
+<body>
+
+    <h2 id="titulo">Olá, mundo!</h2>
+    <button onclick="mudarTexto()">Clique aqui para mudar o texto</button>
+
+    <h3 class="subtitulo">texto 2</h3>
+        <h3 class="subtitulo">texto 3</h3>
+        <h3 class="subtitulo">texto 4</h3>
+        <button onclick="mudarSubtitulo()">clique me</button>
+
+        <h3 class="sumir">Olá Mundo!</h3>
+        <button onclick="sumir()">Clique para sumir</button>
+
+            <div id="personagem"></div>
+
+    <script>
+        const personagem = document.getElementById("personagem");
+
+        // posição inicial
+        let posicaoX = 100;
+        let posicaoY = 100;
+
+        document.addEventListener("keydown", function (event){
+
+            const passo = 10;
+
+            if(event.key === "w"){
+                posicaoY -= passo;
+            }
+            else if (event.key === "s"){
+                posicaoY += passo;
+            } else if (event.key === "a"){
+                posicaoX -= passo;
+            } else if (event.key === "d"){
+                posicaoX += passo;
+            }
+
+            personagem.style.top = posicaoY + "px";
+            personagem.style.left = posicaoX + "px";
+
+        } )
+
+
+    </script>
+<br><br>
+       <button onclick="incrementar()">+</button>
+   <button onclick="decrementar()">-</button>
+   <p id="contador">0</p>
+
+   <script>
+    let count = 0;
+
+    function incrementar(){
+        count++;
+        document.getElementById("contador").innerText = count;
+    }
+
+    function decrementar(){
+        count--;
+        document.getElementById("contador").innerText = count;
+    }
+   </script>
+    
+</body>
+
+</html>
